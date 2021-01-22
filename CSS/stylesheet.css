@@ -1,0 +1,168 @@
+html
+{
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+body    
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+
+
+header
+{
+    height: auto; /* a faire plus propre */
+    width: 100%;  
+    border-bottom: 2px #b7bfc9 solid;
+
+}
+
+.myName
+{
+    background-color:#0e2f8a;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.tabs
+{
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.tab
+{
+    padding: 20px;
+    text-decoration: none;
+    color: #0e2f8a;
+}
+.tab:hover
+{
+    background-color: #0e2f8a;
+    color: #ffffff;
+}
+
+
+footer
+{
+    border-top: 2px #b7bfc9 solid;
+    background-color: white;
+    height: 5%;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    padding-top:10px;
+    padding-bottom: 10px;
+    
+}
+
+#footer-layout
+{
+    padding: 10px;
+}
+
+h1
+{
+    font-size: 32px;
+    margin: 0px;
+
+}
+
+h2
+{
+    font-size: 24px;
+    margin: 0px;
+
+}
+
+p
+{
+    margin: 0px;
+    font-size: 15px;
+}
+
+
+
+
+/* CONTENT */
+
+.content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.me
+{
+    width: 20%;
+    height: 100%;
+    background-color: #e6e7eb;
+    border-radius: 20px;
+}
+.me:hover
+{
+    border: 0.1px #cbccd1 solid;
+}
+
+.formationExperiences
+{
+    width: 30%;
+    background-color: #e6e7eb;
+    height: 100%;
+    border-radius: 20px;
+
+}
+.formationExperiences:hover
+{
+    border: 0.1px #cbccd1 solid;
+}
+
+.competences
+{
+    width: 30%;
+    background-color: #e6e7eb;
+    height: 100%;
+    border-radius: 20px;
+}
+.competences:hover
+{
+    border: 0.1px #cbccd1 solid;
+}
+
+.blank
+{
+    height: 100%;
+    width: 5%;
+    
+}
+.containedBlue
+{
+    background-color: #0e2f8a;
+    color: white;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.containedGrey
+{
+    padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+}
+
