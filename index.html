@@ -1,153 +1,186 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <!-- Head -->
-        <meta charset="utf-8">
-        <title>Thibaut Picart</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="./CSS/stylesheet.css" rel="stylesheet">
-        <!-- development version, includes helpful console warnings -->
-        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-        
-    </head>
-    <body>
 
-        <div id="app">
-            <header>
+<head>
+    <!-- Head -->
+    <meta charset="utf-8">
+    <title>Thibaut Picart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./CSS/stylesheet.css" rel="stylesheet">
+    
 
-                <div class="myName">
-                    <h1>Thibaut Picart</h1>
-                    <br>
-                    <h2>Elève Ingénieur</h2>
-                </div> 
-                
-                <div id="tabs">
-                    <a href="index.html" class="tab">
-                        <span>Accueil</span>  
-                    </a>
-                    <a href="index.html" class="tab">
-                        <span>Formation</span>  
-                    </a>
-                    <a href="index.html" class="tab">
-                        <span>Expériences</span>  
-                    </a>
-                    <a href="index.html" class="tab">
-                        <span>Compétences</span>  
-                    </a>
-                    <a href="index.html" class="tab">
-                        <span>Portfolio</span>  
-                    </a>
-                    <a href="index.html" class="tab">
-                        <span>Contact</span>  
-                    </a>
-                    
-                </div>
-            </header>
-    
-            <section class="content">
-    
-                <div class="blank"></div>
-                <div class="me">
-    
-                    <div class="containedBlue"><p>A propos de moi...</p> </div>
-    
-                    <div class="containedGrey">
-                        <div class="indroduction">
-                        
-                            <p>Actuellement en 4e année d'école d'ingé, je suis à la recherche
-                             d'un stage assistant ingénieur dans le domaine du développement
-                             d'applications, du développement web, ou de l'électronique
-                             embarquée...</p>
-                         
-                         </div> 
-                        
-                         <div class="myself">
-                             <p>Photo</p>
-                             <p>Age : 20 ans</p>
-                             <p>Lieu de résidence : Brest</p>
-                             <p>Permis B</p>
-                         </div>
-                         <div class="contact">
-                             <p>Mail : thibaut.picart29@gmail.com</p>
-                             <p>Telephone : 0602600425</p>
-                         </div>
-                    </div>
-    
-                    
-    
-                </div>
-    
-                <div class="blank"></div>
-    
-                <div class="formationExperiences">
-                    <div class="containedBlue"> <p>Formations et Expériences</p>
-                    </div>
-    
-                    <div class="containedGrey">
-                        <div class="formation">
-                            <p>ENIB : 4e année</p>
-                            <p>Lycée : Saint Esprit Landivisiau</p> 
-                        </div>
-                        <div class="experiences">
-                            <p>Stage ouvrier chez Froneri France, Plouédern</p>
-                            <p>Travaux agricoles</p>
-                        </div>
-                    </div>
-                    
-                </div>
-    
-                <div class="blank"></div>
-    
-                <div class="competences">
-                    <div class="containedBlue"> <p>Compétences</p>
-                    </div>
-                    <div class="containedGrey">
-                        <p>Languages de programmation</p>
-                        <p>Développement sur microcontroleurs</p>
-                        <p>Conception carte PCB (Eagle)</p>
-                    </div>
-                    
-    
-                </div>
-                
-                <div class="blank"></div>
-    
-            </section>
+</head>
 
-            <div class="test">
-                <p> Current Number : {{ currentNumber }}</p>
+<body>
+
+    <div id="app">
+        <header>
+
+            <div class="myName">
+                <h1>Thibaut Picart</h1>
+                <br>
+                <h2>Elève Ingénieur</h2>
             </div>
 
-            <div>
-                <button @click="increment">+1</button>
+            <div id="tabs">
+                <a href="index.html" class="tab">
+                    <span>Accueil</span>
+                </a>
+                <a href="index.html" class="tab">
+                    <span>Formation</span>
+                </a>
+                <a href="index.html" class="tab">
+                    <span>Expériences</span>
+                </a>
+                <a href="index.html" class="tab">
+                    <span>Compétences</span>
+                </a>
+                <a href="index.html" class="tab">
+                    <span>Portfolio</span>
+                </a>
+                <a href="index.html" class="tab">
+                    <span>Contact</span>
+                </a>
+
             </div>
-    
+        </header>
 
-            <footer>
-                <div id=footer-layout>
-                    <p>Site Web réalisé par Thibaut Picart - 2021</p>
+        <section class="content">
+
+            <div class="blank"></div>
+            <div class="me">
+
+                <div class="containedBlue">
+                    <p>A propos de moi...</p>
                 </div>
-            </footer>
 
+                <div class="containedGrey">
+                    <div class="indroduction">
+
+                        <p>Actuellement en 4e année d'école d'ingé, je suis à la recherche
+                            d'un stage assistant ingénieur dans le domaine du développement
+                            d'applications, du développement web, ou de l'électronique
+                            embarquée...</p>
+
+                    </div>
+
+                    <div class="myself">
+                        <p>Photo</p>
+                        <p>Age : 20 ans</p>
+                        <p>Lieu de résidence : Brest</p>
+                        <p>Permis B</p>
+                    </div>
+                    <div class="contact">
+                        <p>Mail : thibaut.picart29@gmail.com</p>
+                        <p>Telephone : 0602600425</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="blank"></div>
+
+            <div class="formationExperiences">
+                <div class="containedBlue">
+                    <p>Formations et Expériences</p>
+                </div>
+
+                <div class="containedGrey">
+                    <div class="formation">
+                        <p>ENIB : 4e année</p>
+                        <p>Lycée : Saint Esprit Landivisiau</p>
+                    </div>
+                    <div class="experiences">
+                        <p>Stage ouvrier chez Froneri France, Plouédern</p>
+                        <p>Travaux agricoles</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="blank"></div>
+
+            <div class="competences">
+                <div class="containedBlue">
+                    <p>Compétences</p>
+                </div>
+                <div class="containedGrey">
+                    <p>Languages de programmation</p>
+                    <p>Développement sur microcontroleurs</p>
+                    <p>Conception carte PCB (Eagle)</p>
+                </div>
+
+
+            </div>
+
+            <div class="blank"></div>
+
+        </section>
+
+        <div class="test">
+            <p> Current Number : {{ currentNumber }}</p>
         </div>
 
-       
+        <div>
+            <button @click="increment">+1</button>
+        </div>
 
-      
-        
-        
-        <script>const app = new Vue({
+
+        <footer>
+            <div id=footer-layout>
+                <p>Site Web réalisé par Thibaut Picart - 2021</p>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+
+    <script>const app = new Vue({
             el: '#app',
             data: {
                 currentNumber: 0
             },
             methods: {
-                increment(){
-                    this.currentNumber+=1
+                increment() {
+                    this.currentNumber += 1
                 }
             }
         })
-        </script>   
+    </script>
 
-    </body>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyCC3HNjStiT-025YMO5AawsRDsNuht5V7U",
+            authDomain: "curriculumvitae-5478f.firebaseapp.com",
+            projectId: "curriculumvitae-5478f",
+            storageBucket: "curriculumvitae-5478f.appspot.com",
+            messagingSenderId: "208435941026",
+            appId: "1:208435941026:web:5b6a3760cae46f852891fb",
+            measurementId: "G-JN75JBEBH6"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
+
+</body>
+
 </html>
